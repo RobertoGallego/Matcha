@@ -1,0 +1,51 @@
+{
+  "name": "matcha",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "axios": "^0.18.0",
+    "bootstrap": "^3.3.7",
+    "google-map-react": "^0.34.0",
+    "http-proxy-middleware": "^0.20.0",
+    "jwt-decode": "^2.2.0",
+    "lodash": "^4.17.15",
+    "moment": "^2.22.0",
+    "pigeon-overlay": "^0.2.3",
+    "rc-slider": "^8.7.1",
+    "react": "^16.2.0",
+    "react-bootstrap": "^0.32.1",
+    "react-dom": "^16.2.0",
+    "react-geolocated": "^3.0.1",
+    "react-notifications": "^1.4.3",
+    "react-redux": "^7.1.1",
+    "react-router-dom": "^5.1.2",
+    "react-scripts": "1.1.0",
+    "redux": "^4.0.4",
+    "socket.io-client": "^2.3.0",
+    "universal-cookie": "^2.1.2",
+    "uuid-apikey": "^1.4.6"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test --env=jsdom",
+    "eject": "react-scripts eject"
+  },
+  "proxy": {
+    "/api/*": {
+      "target": "http://[::1]:5000"
+    }
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  }
+}
