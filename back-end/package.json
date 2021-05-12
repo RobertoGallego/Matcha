@@ -23,7 +23,7 @@
     "morgan": "^1.9.0",
     "multer": "^1.4.2",
     "mysql": "^2.15.0",
-    "nodemailer": "^4.6.3",
+    "nodemailer": "^6.4.16",
     "react-facebook-login": "^4.1.1",
     "react-google-login": "^5.0.7",
     "socket.io": "^2.0.3",
