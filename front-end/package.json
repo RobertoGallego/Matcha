@@ -9,7 +9,7 @@
     "http-proxy-middleware": "^0.20.0",
     "jwt-decode": "^2.2.0",
     "lodash": "^4.17.15",
-    "moment": "^2.22.0",
+    "moment": "^2.29.2",
     "pigeon-overlay": "^0.2.3",
     "rc-slider": "^8.7.1",
     "react": "^16.2.0",
