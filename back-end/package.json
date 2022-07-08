@@ -19,7 +19,7 @@
     "jimp": "^0.8.5",
     "jsonwebtoken": "^8.2.0",
     "mmmagic": "^0.5.3",
-    "moment": "^2.18.1",
+    "moment": "^2.29.4",
     "morgan": "^1.9.0",
     "multer": "^1.4.2",
     "mysql": "^2.15.0",
